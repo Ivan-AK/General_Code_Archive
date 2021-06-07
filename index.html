@@ -1,0 +1,162 @@
+<html>
+<head>
+<HR>
+<P align="center"> <b><font size="+3">Weather Data Interface</font></b></P>
+<HR>
+</head>
+
+<form action="/~ivan/cgi-bin/wdi_scripts/form.general_post.py" method="POST" target="_blank">
+<P><b>Fields To Display:</b></P>
+
+<input type="checkbox" name="temperature" value="on" /> Temperature
+<input type="checkbox" name="humidity" value="on" /> Humidity
+<input type="checkbox" name="dew_point" value="on" /> Dew Point
+<input type="checkbox" name="heat_index" value="on" /> Heat Index
+<input type="checkbox" name="wind_chill" value="on" /> Wind Chill
+<input type="checkbox" name="barometric_pressure" value="on" /> Barometric Pressure
+<input type="checkbox" name="rainfall" value="on" /> Rainfall
+<input type="checkbox" name="wind_speed" value="on" /> Wind Speed
+<input type="checkbox" name="wind_average" value="on" /> Average Wind
+<input type="checkbox" name="wind_peak" value="on" /> Peak Wind
+<input type="checkbox" name="wind_direction" value="on" /> Wind Direction
+
+<P><b>Start Date YYYY/MM/DD</b></P>
+
+<table>
+<tr>
+<td>
+
+<select name="start_year">
+<option value="2017" selected>2017</option>
+<option value="2018" selected>2018</option>
+<option value="2019" selected>2019</option>
+<option value="2020" selected>2020</option>
+<option value="2021" selected>2021</option>
+</select>
+</td>
+<td>
+<select name="start_month">
+<option value="01" selected>01</option>
+<option value="02" selected>02</option>
+<option value="03" selected>03</option>
+<option value="04" selected>04</option>
+<option value="05" selected>05</option>
+<option value="06" selected>06</option>
+<option value="07" selected>07</option>
+<option value="08" selected>08</option>
+<option value="09" selected>09</option>
+<option value="10" selected>10</option>
+<option value="11" selected>11</option>
+<option value="12" selected>12</option>
+</select>
+
+</td>
+<td>
+<select name="start_day">
+<option value="01" selected>01</option>
+<option value="02" selected>02</option>
+<option value="03" selected>03</option>
+<option value="04" selected>04</option>
+<option value="05" selected>05</option>
+<option value="06" selected>06</option>
+<option value="07" selected>07</option>
+<option value="08" selected>08</option>
+<option value="09" selected>09</option>
+<option value="10" selected>10</option>
+<option value="11" selected>11</option>
+<option value="12" selected>12</option>
+<option value="13" selected>13</option>
+<option value="14" selected>14</option>
+<option value="15" selected>15</option>
+<option value="16" selected>16</option>
+<option value="17" selected>17</option>
+<option value="18" selected>18</option>
+<option value="19" selected>19</option>
+<option value="20" selected>20</option>
+<option value="21" selected>21</option>
+<option value="22" selected>22</option>
+<option value="23" selected>23</option>
+<option value="24" selected>24</option>
+<option value="25" selected>25</option>
+<option value="26" selected>26</option>
+<option value="27" selected>27</option>
+<option value="28" selected>28</option>
+<option value="29" selected>29</option>
+<option value="30" selected>30</option>
+<option value="31" selected>31</option>
+</select>
+</td>
+</tr>
+</table>
+
+<P><b>End Date YYYY/MM/DD</b></P>
+<table>
+<tr>
+<td>
+
+<select name="end_year">
+<option value="2017" selected>2017</option>
+<option value="2018" selected>2018</option>
+<option value="2019" selected>2019</option>
+<option value="2020" selected>2020</option>
+<option value="2021" selected>2021</option>
+</select>
+</td>
+<td>
+<select name="end_month">
+<option value="01" selected>01</option>
+<option value="02" selected>02</option>
+<option value="03" selected>03</option>
+<option value="04" selected>04</option>
+<option value="05" selected>05</option>
+<option value="06" selected>06</option>
+<option value="07" selected>07</option>
+<option value="08" selected>08</option>
+<option value="09" selected>09</option>
+<option value="10" selected>10</option>
+<option value="11" selected>11</option>
+<option value="12" selected>12</option>
+</select>
+
+</td>
+<td>
+<select name="end_day">
+<option value="01" selected>01</option>
+<option value="02" selected>02</option>
+<option value="03" selected>03</option>
+<option value="04" selected>04</option>
+<option value="05" selected>05</option>
+<option value="06" selected>06</option>
+<option value="07" selected>07</option>
+<option value="08" selected>08</option>
+<option value="09" selected>09</option>
+<option value="10" selected>10</option>
+<option value="11" selected>11</option>
+<option value="12" selected>12</option>
+<option value="13" selected>13</option>
+<option value="14" selected>14</option>
+<option value="15" selected>15</option>
+<option value="16" selected>16</option>
+<option value="17" selected>17</option>
+<option value="18" selected>18</option>
+<option value="19" selected>19</option>
+<option value="20" selected>20</option>
+<option value="21" selected>21</option>
+<option value="22" selected>22</option>
+<option value="23" selected>23</option>
+<option value="24" selected>24</option>
+<option value="25" selected>25</option>
+<option value="26" selected>26</option>
+<option value="27" selected>27</option>
+<option value="28" selected>28</option>
+<option value="29" selected>29</option>
+<option value="30" selected>30</option>
+<option value="31" selected>31</option>
+</select>
+</td>
+</tr>
+</table>
+
+<input type="submit" value="Submit"/>
+</form>
+</html>
